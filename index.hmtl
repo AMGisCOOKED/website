@@ -1,10 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CartoonCraze</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: system-ui;
+      background: #f06d06;
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    header.hero {
+      padding: 2rem 1rem;
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    section {
+      padding: 2rem 1rem;
+    }
+
+    .art-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .art-grid img {
+      max-width: 200px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: 0 auto;
+      gap: 1rem;
+    }
+
+    input, textarea {
+      padding: 0.5rem;
+      border: none;
+      border-radius: 4px;
+    }
+
+    button {
+      background: white;
+      color: #f06d06;
+      padding: 0.7rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    footer {
+      padding: 1rem;
+      background: rgba(0, 0, 0, 0.2);
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
 
@@ -21,9 +81,7 @@
   <section class="gallery">
     <h2>Gallery</h2>
     <div class="art-grid">
-      
-      <img src="">
-      <img src="https://upload.wikimedia.org/wikipedia/en/e/e5/FinnAdventureTime.png">
+      <img src="https://upload.wikimedia.org/wikipedia/en/e/e5/FinnAdventureTime.png" alt="Finn from Adventure Time">
       <!-- Add more images as needed -->
     </div>
   </section>
@@ -42,48 +100,9 @@
     <p>&copy; 2025 CartoonCraze. All rights reserved.</p>
   </footer>
 
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Styled Page</title>
-  <style>
-    body {
-      font-family: system-ui;
-      background: #f06d06;
-      color: white;
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
-  <h1>Welcome!</h1>
-  <p>This is a simple styled HTML page.</p>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Dynamic Font Size</title>
-  <style>
-    body {
-      font-family: system-ui;
-      background: #f06d06;
-      color: white;
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
-  <h1>Responsive Heading</h1>
-  <p>The heading above resizes dynamically.</p>
-
   <script>
     document.getElementsByTagName("h1")[0].style.fontSize = "6vw";
   </script>
+
 </body>
 </html>
-
