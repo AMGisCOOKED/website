@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CartoonCraze</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="hero">
+    <h1>CartoonCraze</h1>
+    <p>imaginative cartoon art</p>
+  </header>
+
+  <section class="about">
+    <h2>About the Artist</h2>
+    <p>Welcome to CartoonCraze! I'm B.O.B, a cartoon artist who brings characters to life with a splash of color and a lot of attitude. From whimsical creatures to zany expressions, my work is all about fun and storytelling through art.</p>
+  </section>
+
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <div class="art-grid">
+      
+      <img src="">
+      <img src="https://upload.wikimedia.org/wikipedia/en/e/e5/FinnAdventureTime.png">
+      <!-- Add more images as needed -->
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Tell me what you think!" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CartoonCraze. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
