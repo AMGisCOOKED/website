@@ -44,3 +44,45 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Styled Page</title>
+  <style>
+    body {
+      font-family: system-ui;
+      background: #f06d06;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome!</h1>
+  <p>This is a simple styled HTML page.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic Font Size</title>
+  <style>
+    body {
+      font-family: system-ui;
+      background: #f06d06;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Responsive Heading</h1>
+  <p>The heading above resizes dynamically.</p>
+
+  <script>
+    document.getElementsByTagName("h1")[0].style.fontSize = "6vw";
+  </script>
+</body>
+</html>
